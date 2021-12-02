@@ -1,13 +1,14 @@
 package com.ssunivs.shopdemo.domain;
 
-import lombok.*;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "order_item")
-@Builder
-@AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 @Setter(AccessLevel.PACKAGE)
@@ -45,7 +46,7 @@ public class OrderItem {
 
     //==Biz Method==//
     public void cancel() {
-        this.getItem().removeStock(this.getCount());
+        this.getItem().addStock(this.getCount());
     }
 
     //==Query Method==//
