@@ -10,7 +10,7 @@ import javax.persistence.*;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 @Setter(AccessLevel.PACKAGE)
-public class Delivery {
+public class Delivery extends BaseEntity {
 
     @Id
     @GeneratedValue

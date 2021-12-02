@@ -15,7 +15,7 @@ import java.util.List;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 @Setter(AccessLevel.PACKAGE)
-public class Order {
+public class Order extends BaseEntity{
 
     @Id
     @GeneratedValue

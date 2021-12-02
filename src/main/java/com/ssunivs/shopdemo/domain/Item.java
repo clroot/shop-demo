@@ -16,7 +16,7 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class Item {
+public class Item extends BaseEntity{
 
     @Id
     @GeneratedValue
