@@ -1,6 +1,6 @@
 package com.ssunivs.shopdemo.service;
 
-import com.ssunivs.shopdemo.domain.*;
+import com.ssunivs.shopdemo.entity.*;
 import com.ssunivs.shopdemo.repository.MemberRepository;
 import com.ssunivs.shopdemo.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;

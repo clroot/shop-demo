@@ -1,7 +1,7 @@
 package com.ssunivs.shopdemo;
 
-import com.ssunivs.shopdemo.domain.BaseEntity;
-import com.ssunivs.shopdemo.domain.Member;
+import com.ssunivs.shopdemo.entity.BaseEntity;
+import com.ssunivs.shopdemo.entity.Member;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

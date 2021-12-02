@@ -1,7 +1,7 @@
 package com.ssunivs.shopdemo.repository;
 
-import com.ssunivs.shopdemo.domain.Item;
-import com.ssunivs.shopdemo.domain.Member;
+import com.ssunivs.shopdemo.entity.Item;
+import com.ssunivs.shopdemo.entity.Member;
 import com.ssunivs.shopdemo.service.ItemService;
 import com.ssunivs.shopdemo.service.MemberService;
 import com.ssunivs.shopdemo.service.OrderService;

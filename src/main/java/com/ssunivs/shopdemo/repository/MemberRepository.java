@@ -1,6 +1,6 @@
 package com.ssunivs.shopdemo.repository;
 
-import com.ssunivs.shopdemo.domain.Member;
+import com.ssunivs.shopdemo.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

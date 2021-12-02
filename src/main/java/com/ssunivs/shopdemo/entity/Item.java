@@ -1,4 +1,4 @@
-package com.ssunivs.shopdemo.domain;
+package com.ssunivs.shopdemo.entity;
 
 import com.ssunivs.shopdemo.exception.NotEnoughStockException;
 import lombok.AllArgsConstructor;

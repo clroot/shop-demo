@@ -1,4 +1,4 @@
-package com.ssunivs.shopdemo.domain;
+package com.ssunivs.shopdemo.entity;
 
 import lombok.AccessLevel;
 import lombok.Getter;

@@ -1,6 +1,7 @@
 package com.ssunivs.shopdemo.service;
 
-import com.ssunivs.shopdemo.domain.*;
+import com.ssunivs.shopdemo.constant.OrderStatus;
+import com.ssunivs.shopdemo.entity.*;
 import com.ssunivs.shopdemo.exception.NotEnoughStockException;
 import com.ssunivs.shopdemo.repository.OrderRepository;
 import org.junit.jupiter.api.DisplayName;

@@ -1,5 +1,6 @@
-package com.ssunivs.shopdemo.domain;
+package com.ssunivs.shopdemo.entity;
 
+import com.ssunivs.shopdemo.constant.DeliveryStatus;
 import lombok.*;
 
 import javax.persistence.*;

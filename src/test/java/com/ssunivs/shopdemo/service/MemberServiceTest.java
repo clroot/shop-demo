@@ -1,6 +1,6 @@
 package com.ssunivs.shopdemo.service;
 
-import com.ssunivs.shopdemo.domain.Member;
+import com.ssunivs.shopdemo.entity.Member;
 import com.ssunivs.shopdemo.repository.MemberRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

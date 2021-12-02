@@ -1,6 +1,6 @@
 package com.ssunivs.shopdemo.service;
 
-import com.ssunivs.shopdemo.domain.Member;
+import com.ssunivs.shopdemo.entity.Member;
 import com.ssunivs.shopdemo.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

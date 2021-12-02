@@ -1,5 +1,7 @@
-package com.ssunivs.shopdemo.domain;
+package com.ssunivs.shopdemo.entity;
 
+import com.ssunivs.shopdemo.constant.DeliveryStatus;
+import com.ssunivs.shopdemo.constant.OrderStatus;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
